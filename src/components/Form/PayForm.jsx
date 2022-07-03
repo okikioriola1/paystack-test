@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {FormWrapper, MainForm } from './styled'
 import { usePaystackPayment } from 'react-paystack';
-import Fade from 'react-reveal/Fade'
+
 import {message} from 'antd';
 import 'antd/dist/antd.less'
 import 'antd/dist/antd.min.css'
@@ -53,7 +53,7 @@ const PayForm = () => {
     
     return (
         <FormWrapper>
-            <Fade left cascade={true}>
+            
             <MainForm onSubmit={onSubmit} >
                 <input label="name" placeholder="FullName" type="text" value={name} onChange={(e)=>setName(e.target.value)}/>
                 <input label="email" placeholder="Email" type="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
@@ -64,7 +64,7 @@ const PayForm = () => {
                 
                 
             </MainForm>
-            </Fade>
+            
 
             
            
