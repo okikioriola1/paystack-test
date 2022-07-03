@@ -2,7 +2,7 @@ import styled from 'styled-components/macro'
 import './App.css';
 import PayForm from './components/Form/PayForm';
 import FormImg from './images/form-img.png'
-import Fade from 'react-reveal/Fade'
+
 
 const PageWrapper =styled.div`
   display: flex;
@@ -70,17 +70,17 @@ const App=()=> {
     <PageWrapper>
     <MainPage>
       <FormPart>
-        <Fade left cascade={true}>
+        
         <FormHeader>
           <h2>Fill in your details and amount to complete payment</h2>
         </FormHeader>
       <PayForm/>
-      </Fade>
+     
       </FormPart>
       <ImagePart>
-      <Fade right cascade={true}>
+     
       <img src={FormImg} alt="form-img"/>
-      </Fade>
+      
       </ImagePart>
 
 
