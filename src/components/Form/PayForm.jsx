@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {FormWrapper, MainForm } from './styled'
 import { usePaystackPayment } from 'react-paystack';
-import Fade from 'react-reveal'
+import Fade from 'react-reveal/Fade'
 import {message} from 'antd';
 import 'antd/dist/antd.less'
 import 'antd/dist/antd.min.css'
