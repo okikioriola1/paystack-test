@@ -33,7 +33,7 @@ export const MainForm= styled.form`
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
         color: #F9F7F7;
         outline: none;
