@@ -39,6 +39,7 @@ export const MainForm= styled.form`
         outline: none;
         border: 1px solid #BA68C8;
         margin: 2rem auto;
+        cursor:pointer;
 
     }
 
