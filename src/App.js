@@ -2,7 +2,7 @@ import styled from 'styled-components/macro'
 import './App.css';
 import PayForm from './components/Form/PayForm';
 import FormImg from './images/form-img.png'
-import Fade from 'react-reveal'
+import Fade from 'react-reveal/Fade'
 
 const PageWrapper =styled.div`
   display: flex;
